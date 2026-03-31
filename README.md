@@ -80,10 +80,10 @@ High‑level structure (folders link to sub‑content):
 
 This folder contains simple CSV templates that help you start and maintain basic security records without needing specialized tools.
 
-  - `asset-inventory.csv` – basic inventory of devices, systems, applications and key data sets.
-  - `basic-risk-assessment.csv` – simple risk register linking assets to threats, likelihood, impact and planned controls.
-  - `vendor-inventory-and-assessment.csv` – vendor and third-party inventory with a basic security risk view.
-  - `incident-log.csv` – log for security incidents and near-misses, including containment, lessons learned and follow-up actions.
+    - `asset-inventory.csv` – basic inventory of devices, systems, applications and key data sets.
+    - `basic-risk-assessment.csv` – simple risk register linking assets to threats, likelihood, impact and planned controls.
+    - `vendor-inventory-and-assessment.csv` – vendor and third-party inventory with basic security risk view.
+    - `incident-log.csv` – log for security incidents and near-misses, including containment, lessons learned and follow-up actions.
 
 ---
 
