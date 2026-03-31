@@ -4,6 +4,8 @@ This document describes a simple, repeatable way for small and medium businesses
 
 It is designed for non‑security analysts: you do not need advanced tools or methodologies. You just need a clear list of your assets, your main threats, and a simple way to rate and prioritize risks.
 
+You can use the CSV template in `templates/basic-risk-assessment.csv` as a starting point for your risk register and adapt the columns to your needs.
+
 ---
 
 ## 1. What a basic risk assessment is (and is not)
@@ -22,7 +24,7 @@ It is **not**:
 - A formal, heavily quantitative risk model.  
 - A one‑time project that never gets updated.
 
-For most SMBs, a basic risk assessment should fit on a few pages or a simple spreadsheet and be updated at least once a year, or when major changes occur.
+For most SMBs, a basic risk assessment should fit on a few pages or a simple spreadsheet (for example, `templates/basic-risk-assessment.csv`) and be updated at least once a year, or when major changes occur.
 
 ---
 
@@ -60,13 +62,7 @@ Start by listing the **assets** you want to protect:
   - Key roles (finance, sales, operations, HR, IT).  
   - Critical manual processes (for example, payment approvals, order fulfillment).
 
-For each asset, note briefly:
-
-- Where it is (cloud provider, on‑premises, specific office).  
-- Who uses it or owns it.  
-- Whether it is **critical**, **important** or **nice‑to‑have** for daily operations.
-
-You can capture this in a simple table or spreadsheet.
+Use your asset inventory (for example, the file `templates/asset-inventory.csv`) as the basis for this step.
 
 ---
 
@@ -117,7 +113,7 @@ Questions to help with impact:
 - Would we have to notify customers, regulators or the public?  
 - How much would it cost in money, time and reputation?
 
-You can put this in a small table, for example:
+You can put this in a small table or use the `templates/basic-risk-assessment.csv` file with columns such as:
 
 | Asset / Process             | Threat scenario           | Likelihood | Impact | Notes                         |
 |-----------------------------|---------------------------|-----------|--------|-------------------------------|
@@ -144,7 +140,7 @@ Combine likelihood and impact to decide **overall priority**:
   - Low impact and low likelihood.  
   - May be accepted or handled later.
 
-You can visualize this in a simple 3×3 matrix or just add a “Priority: High/Medium/Low” column.
+You can visualize this in a simple 3×3 matrix or just add a “Priority: High/Medium/Low” column in `templates/basic-risk-assessment.csv`.
 
 At the end of this step, you should have:
 
@@ -178,7 +174,7 @@ Examples:
     - `wifi-and-vpn.md` – secure remote access.  
     - `vendor-and-third-party-risk-basics.md` – better selection and oversight of vendors.
 
-For each high‑priority risk, write down:
+For each high‑priority risk, write down in `templates/basic-risk-assessment.csv`:
 
 - Which controls you **already have**.  
 - Which controls you **plan to implement or improve**, and in what timeframe.
@@ -191,15 +187,14 @@ This becomes the start of your **action plan**.
 
 Your basic risk assessment does not need to be long, but it should be **written down**:
 
-Include:
+Include, for example in `templates/basic-risk-assessment.csv`:
 
 - The date and people involved.  
-- The list of key assets.  
-- The main threat scenarios considered.  
+- The list of key assets and scenarios.  
 - The risk ratings (likelihood, impact, priority).  
 - The list of chosen controls and actions.
 
-Revisit this document:
+Revisit this assessment:
 
 - **At least annually**, or  
 - When there are major changes (for example, new systems, mergers, big shifts to cloud or remote work), or  
@@ -213,7 +208,7 @@ Each new iteration should be easier, because the structure is already in place.
 
 Use this checklist to see whether you have completed a usable basic risk assessment:
 
-- [ ] We have a short, written list of our key systems, data and processes.  
+- [ ] We have a short, written list of our key systems, data and processes (for example, in `templates/asset-inventory.csv`).  
 - [ ] We have identified realistic threat scenarios that could affect our business.  
 - [ ] We have rated likelihood and impact for major risks using a simple scale.  
 - [ ] We have identified which risks are high, medium and low priority.  
@@ -221,4 +216,4 @@ Use this checklist to see whether you have completed a usable basic risk assessm
 - [ ] We have recorded who participated and when the assessment was done.  
 - [ ] We have decided how often we will review and update the assessment.
 
-If several boxes are unchecked, use this document to complete a first assessment and turn it into a repeatable habit, not a one‑time exercise.
+If several boxes are unchecked, use this document and the template `templates/basic-risk-assessment.csv` to complete a first assessment and turn it into a repeatable habit, not a one‑time exercise.
