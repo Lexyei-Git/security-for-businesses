@@ -1,0 +1,17 @@
+(CPOY AND PASTE IN YOUR CSV FILE)
+Asset ID,Asset Name,Asset Type,Category,Location/Hosting,Owner/Contact,Business Function,Criticality,Contains Personal Data?,Contains Sensitive Data?,Internet-Facing?,Primary Vendor/Service,Notes
+
+Description:
+Asset ID – Simple unique identifier for the asset (for example, A001, S010, D005).
+Asset Name – Clear name for the asset (for example, “Finance laptop – Maria”, “CRM – HubSpot”, “Payroll database”).
+Asset Type – High‑level type such as Device, Application, Data Set, Network Equipment, SaaS, Database, File Storage.
+Category – Technical category such as Endpoint, Server, Network, Cloud/SaaS, On‑prem Application, etc.
+Location/Hosting – Where the asset is located or hosted (for example, “Office – Vancouver”, “On‑premises DC”, “Azure – West US”, “Microsoft 365”).
+Owner/Contact – Person or role responsible for the asset (for example, “IT Manager”, “Head of Finance”).
+Business Function – Main part of the business that uses or depends on this asset (for example, Finance, Sales, HR, Operations, IT).
+Criticality – Business importance of the asset: Critical / Important / Nice‑to‑have.
+Contains Personal Data? – Whether the asset stores or processes personal information (Yes / No / Unknown).
+Contains Sensitive Data? – Whether the asset stores or processes sensitive data (for example, health, financial, minors’ data) (Yes / No / Unknown).
+Internet-Facing? – Whether the asset is directly reachable from the public internet (Yes / No).
+Primary Vendor/Service – Main provider or platform name if this is a cloud/SaaS or hosted service.
+Notes – Any additional information that is useful (for example, version, key integrations, special considerations).
