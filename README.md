@@ -75,8 +75,15 @@ High‑level structure (folders link to sub‑content):
   - `incident-reporting-policy.md`  
   - `vendor-and-third-party-security-policy.md`  
   - `README.md` – how managers should choose, adapt and approve policies.
+ 
+- `templates/`  
 
-You can browse individual files directly in GitHub to see full guidance and examples.
+This folder contains simple CSV templates that help you start and maintain basic security records without needing specialized tools.
+
+- `asset-inventory.csv` – basic inventory of devices, systems, applications and key data sets.
+- `basic-risk-assessment.csv` – simple risk register linking assets to threats, likelihood, impact and planned controls.
+- `vendor-inventory-and-assessment.csv` – vendor and third-party inventory with a basic security risk view.
+- `incident-log.csv` – log for security incidents and near-misses, including containment, lessons learned and follow-up actions.
 
 ---
 
