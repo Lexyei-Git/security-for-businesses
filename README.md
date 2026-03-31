@@ -1,43 +1,143 @@
 # Information Security Guide for Small and Medium Businesses
 
-This repository is a practical, plain-language guide to help small and medium businesses improve their cyber security posture, even if they do not have a dedicated security team.
+This repository is a practical, plain‑language guide to help small and medium businesses improve their cyber security, even if they do not have a dedicated security team.
 
-It is written for non-security analysts and managers who need to understand what to do, why it matters, and how to implement basic controls step by step.
+It is written for non‑security analysts and managers who need to understand **what to do**, **why it matters**, and **how to implement basic controls step by step**.
+
+---
 
 ## Who this guide is for
 
-- Small and medium businesses (SMBs/SMEs), especially in Canada
-- IT generalists and system administrators
-- Risk, compliance, finance, HR, operations and other business professionals who are responsible for security tasks but are not security experts
+- Small and medium businesses (SMBs/SMEs), especially in Canada.  
+- IT generalists and system administrators.  
+- Business professionals in risk, compliance, finance, HR, operations and other areas who are responsible for security tasks but are not security experts.  
+- Security professionals who need clear, non‑technical material to explain security to business stakeholders.
+
+---
 
 ## What you will find here
 
-- Simple explanations of core information security concepts
-- A “where to start” section with a prioritized action plan for the first 30 days
-- Practical controls (backups, antivirus, updates, passwords, multi-factor authentication, Wi‑Fi, VPN, phishing awareness, etc.)
-- Plain-language explanations of frameworks such as the NIST Cybersecurity Framework and CIS Critical Security Controls, adapted for small and medium businesses
-- Example security roadmaps for the first 30 days, 3–6 months, and 12 months
+- **Foundations** – simple explanations of core information security concepts.  
+- **Where to start** – a basic risk assessment approach, a simple asset inventory and a 30‑day action plan.  
+- **Practical controls** – focused guides on concrete controls (backups, patching, passwords and MFA, email and phishing, Wi‑Fi/VPN, device hardening, logging, vendor risk, etc.).  
+- **Frameworks explained** – plain‑English introductions to the NIST Cybersecurity Framework and CIS Critical Security Controls, tailored for SMBs.  
+- **Policies** – starter policy templates managers can adapt and approve.  
+- **Roadmaps** (planned) – suggested 3–6 month and 12‑month improvement plans.
+
+The goal is to bridge the gap between **high‑level frameworks** and **day‑to‑day actions** in a small or medium business.
+
+---
 
 ## Repository structure
 
-Planned structure for this guide:
+High‑level structure (folders link to sub‑content):
 
-- `0-introduction/` – Purpose of the guide and how to navigate it
-- `1-foundations/` – Core information security concepts and principles
-- `2-where-to-start/` – Initial 30‑day plan and other starting points
-- `3-practical-controls/` – Individual controls explained in practical terms
-- `4-frameworks-explained/` – NIST Cybersecurity Framework and CIS Critical Security Controls explained for SMBs
-- `5-maturity-roadmaps/` – Suggested 3–6 month and 12‑month security roadmaps
-- `6-supporting-materials/` – Glossary, useful links, templates and checklists
+- `0-introduction/`  
+  - `overview.md` – why this guide exists and how it is organized.
 
-## How to use this repository
+- `1-foundations/`  
+  - `what-is-information-security.md` – business‑friendly definition and context.  
+  - `basic-principles.md` – confidentiality, integrity, availability (CIA) and other key principles.
 
-1. Start with `0-introduction/` to understand the purpose and scope of the guide.
-2. Read `1-foundations/` to get a baseline understanding of information security.
-3. Follow `2-where-to-start/` to apply a simple, prioritized set of actions in the first 30 days.
-4. Use `3-practical-controls/` when you are ready to implement specific controls in more detail.
-5. Refer to `4-frameworks-explained/` if you need to connect your work to recognized frameworks (NIST CSF, CIS Controls) or explain your approach to management or external stakeholders.
+- `2-where-to-start/`  
+  - `first-30-days.md` – 30‑day “quick win” action plan.  
+  - `simple-asset-inventory.md` – guidance for building a basic asset inventory.  
+  - `basic-risk-assessment.md` – simple, repeatable risk assessment approach.  
+  - `starter-policies-and-templates.md` – overview of essential starter policies.
 
-## Important note
+- `3-practical-controls/` (examples, not exhaustive)  
+  - `backups.md`  
+  - `passwords-and-mfa.md`  
+  - `email-and-phishing.md`  
+  - `patching-and-updates.md`  
+  - `antivirus-and-anti-malware.md`  
+  - `access-control-basics.md`  
+  - `wifi-and-vpn.md`  
+  - `device-hardening-and-configuration.md`  
+  - `logging-and-monitoring-basics.md`  
+  - `physical-security-basics.md`  
+  - `vendor-and-third-party-risk-basics.md`
 
-This guide does not provide legal advice and does not replace formal compliance requirements (for example, privacy, financial or sector-specific regulations). It is intended as a practical starting point and should be complemented with professional and legal advice where required.
+- `4-frameworks-explained/`  
+  - `nist-csf-for-smbs.md` – NIST Cybersecurity Framework explained for SMBs.  
+  - `cis-controls-for-beginners.md` – CIS Critical Security Controls explained for beginners and SMBs.
+
+- `5-maturity-roadmaps/` (planned)  
+  - `first-30-days.md` – tactical checklist (linked from `2-where-to-start/`).  
+  - `3-to-6-months.md` (planned).  
+  - `12-month-plan.md` (planned).
+
+- `policies/`  
+  - `acceptable-use-policy.md`  
+  - `passwords-and-mfa-policy.md`  
+  - `backup-and-data-protection-policy.md`  
+  - `email-internet-and-phishing-policy.md`  
+  - `incident-reporting-policy.md`  
+  - `vendor-and-third-party-security-policy.md`  
+  - `README.md` – how managers should choose, adapt and approve policies.
+
+You can browse individual files directly in GitHub to see full guidance and examples.
+
+---
+
+## How to get started (recommended path)
+
+If you are new to information security in your organization:
+
+1. **Read the overview**  
+   - Start with `0-introduction/overview.md` to understand the purpose and scope of this guide.
+
+2. **Learn the basics**  
+   - Read `1-foundations/what-is-information-security.md` and `basic-principles.md` to get core concepts (CIA triad, least privilege, defense in depth).
+
+3. **Understand your environment**  
+   - Use `2-where-to-start/simple-asset-inventory.md` to list your key systems, data and processes.  
+   - Use `2-where-to-start/basic-risk-assessment.md` to identify and prioritize your main risks.
+
+4. **Act in the first 30 days**  
+   - Follow `2-where-to-start/first-30-days.md` for a practical sequence of quick‑win actions.
+
+5. **Implement key controls**  
+   - Work through the relevant documents in `3-practical-controls/` (backups, patching, passwords/MFA, email/phishing, Wi‑Fi/VPN, etc.) to address your highest‑priority risks.
+
+6. **Formalize expectations with policies**  
+   - Use the templates in `policies/` and the guidance in `policies/README.md` to create and approve simple, realistic policies.
+
+7. **Connect to frameworks (optional but recommended)**  
+   - When you need to explain your approach to management, customers or auditors, use:
+     - `4-frameworks-explained/nist-csf-for-smbs.md` as your high‑level map.  
+     - `4-frameworks-explained/cis-controls-for-beginners.md` as your tactical checklist reference.
+
+---
+
+## Relationship to NIST CSF and CIS Controls
+
+This repository is designed to align with widely used frameworks while staying pragmatic for small and medium businesses:
+
+- **NIST Cybersecurity Framework (CSF)**  
+  - `nist-csf-for-smbs.md` explains the six Functions (Govern, Identify, Protect, Detect, Respond, Recover) in plain language and shows where the content of this repo fits.
+
+- **CIS Critical Security Controls (CIS Controls)**  
+  - `cis-controls-for-beginners.md` describes the CIS Controls and highlights which IG1 (basic) safeguards are most relevant to SMBs.  
+  - Many documents in `3-practical-controls/` map directly to IG1 safeguards (for example, assets, secure configuration, backups, malware defenses, access control, logging, vendor risk).
+
+You can say, for example:
+
+> “Our security program is based on the NIST Cybersecurity Framework, and we use the CIS Critical Security Controls (Implementation Group 1) as a practical checklist for the controls we implement.”
+
+---
+
+## Using and contributing to this repository
+
+- **Using for your business**  
+  - You are free to copy, adapt and use this content in your own organization, subject to the repository’s license (see `LICENSE` file if present).  
+  - Always adapt examples and policies to your specific context and legal requirements.
+
+- **Contributing improvements**  
+  - Suggestions, corrections and improvements are welcome via pull requests or issues.  
+  - When contributing, aim to keep:
+    - Language clear and accessible to non‑specialists.  
+    - Examples realistic for small and medium businesses.  
+    - Links to recognized frameworks and official guidance where helpful.
+
+The long‑term intention is for this repository to be a **living reference** for organizations that need to improve their security posture step by step, without assuming deep security expertise or large budgets.
