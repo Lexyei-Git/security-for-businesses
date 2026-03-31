@@ -1,0 +1,18 @@
+(COPY AND PASTE IN YOUR CSV FILE)
+Risk ID,Asset ID,Asset Name,Threat Scenario,Description,Likelihood (L/M/H),Impact (L/M/H),Overall Priority (L/M/H),Existing Controls,Planned Controls,Owner/Responsible,Target Completion Date,Status,Notes
+
+Description:
+Risk ID – Simple unique identifier for the risk (for example, R001, R002).
+Asset ID – ID of the asset affected by this risk (referencing the asset inventory).
+Asset Name – Name of the asset affected, for readability.
+Threat Scenario – Short label for the risk scenario (for example, “Business email compromise”, “Ransomware on file share”, “Lost laptop”).
+Description – Brief description (1–3 sentences) of what could happen and how it would affect the business.
+Likelihood (L/M/H) – Estimated likelihood of this scenario occurring in the next 1–2 years: Low / Medium / High.
+Impact (L/M/H) – Estimated business impact if the scenario happens: Low / Medium / High.
+Overall Priority (L/M/H) – Overall priority for action based on likelihood and impact: Low / Medium / High.
+Existing Controls – Key controls that already reduce this risk (for example, MFA, backups, antivirus, awareness training).
+Planned Controls – Additional controls or improvements you plan to implement (often mapped to specific 3-practical-controls/ documents).
+Owner/Responsible – Role or person responsible for driving the risk treatment actions.
+Target Completion Date – Target date to complete the main planned controls.
+Status – Current status of this risk treatment (for example, Not started / In progress / Completed / Deferred).
+Notes – Any extra comments or context.
