@@ -5,6 +5,8 @@ Incident response is about **reacting quickly and effectively** when something g
 
 This document provides a simple, practical incident response approach for small and medium businesses.
 
+You can use the `templates/incident-log.csv` to track and document incidents and near‑misses over time.
+
 ---
 
 ## 1. What is an incident (plain language)
@@ -93,7 +95,7 @@ Below are high‑level playbook outlines for three common scenarios. You can ada
 
 1. **Identify**
    - User reports the incident or email security flags it.  
-   - Incident lead logs basic details (who, when, which account, what was clicked).
+   - Incident lead logs basic details (who, when, which account, what was clicked) in `templates/incident-log.csv`.
 
 2. **Contain**
    - Immediately change the user’s password.  
@@ -194,7 +196,7 @@ Make sure your incident playbook **references where logs are stored**, how to ac
 
 ## 7. Documentation and evidence
 
-Even a small organization should **document** incidents and responses:
+Even a small organization should **document** incidents and responses using `templates/incident-log.csv`:
 
 - For each incident:
   - Short description (what happened, when, who was involved).  
@@ -223,7 +225,7 @@ Use this checklist to evaluate your current readiness:
 - [ ] Staff know **what** to report and **how** to report suspected incidents.  
 - [ ] We know where key logs are stored and who can access them during an incident.  
 - [ ] We have tested at least one incident scenario through a tabletop exercise.  
-- [ ] We document incidents (even small ones) and track lessons learned and follow‑up actions.  
+- [ ] We document incidents (even small ones) and track lessons learned and follow‑up actions using `templates/incident-log.csv`.  
 - [ ] Incident response is discussed periodically with management as part of our overall security governance.
 
 If several boxes are unchecked, use this document as a starting point to build and refine your incident response capability over the next 3–12 months.
