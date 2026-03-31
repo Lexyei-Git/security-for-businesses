@@ -1,5 +1,10 @@
 # Information Security Guide for Small and Medium Businesses
 
+[![NIST CSF](https://img.shields.io/badge/NIST-CSF-2.0-blue.svg)](4-frameworks-explained/nist-csf-for-smbs.md)
+[![CIS Controls](https://img.shields.io/badge/CIS-Controls-blue.svg)](4-frameworks-explained/cis-controls-for-beginners.md)
+[![Templates](https://img.shields.io/badge/Templates-4-green.svg)](templates/)
+[![Policies](https://img.shields.io/badge/Policies-6-orange.svg)](policies/)
+
 This repository is a practical, plain‑language guide to help small and medium businesses improve their cyber security, even if they do not have a dedicated security team.
 
 It is written for non‑security analysts and managers who need to understand **what to do**, **why it matters**, and **how to implement basic controls step by step**.
