@@ -1,4 +1,4 @@
-# Information Security Guide for Small and Medium Businesses
+# Information and Cyber Security Guide for Small and Medium Businesses
 
 This repository is a practical, plain‑language guide to help small and medium businesses improve their cyber security, even if they do not have a dedicated security team.
 
