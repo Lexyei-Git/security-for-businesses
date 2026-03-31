@@ -127,17 +127,4 @@ You can say, for example:
 
 ---
 
-## Using and contributing to this repository
-
-- **Using for your business**  
-  - You are free to copy, adapt and use this content in your own organization, subject to the repository’s license (see `LICENSE` file if present).  
-  - Always adapt examples and policies to your specific context and legal requirements.
-
-- **Contributing improvements**  
-  - Suggestions, corrections and improvements are welcome via pull requests or issues.  
-  - When contributing, aim to keep:
-    - Language clear and accessible to non‑specialists.  
-    - Examples realistic for small and medium businesses.  
-    - Links to recognized frameworks and official guidance where helpful.
-
 The long‑term intention is for this repository to be a **living reference** for organizations that need to improve their security posture step by step, without assuming deep security expertise or large budgets.
