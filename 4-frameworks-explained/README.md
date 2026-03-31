@@ -60,13 +60,3 @@ Both frameworks are complementary:
    - Both frameworks are referenced in `5-maturity-roadmaps/` to show how your phased approach aligns with industry standards.
 
 ---
-
-## Next steps
-
-If you need additional frameworks tailored for SMBs, consider:
-
-- **ISO 27001** (management system for information security) – more formal, audit‑ready.  
-- **CIS Controls Implementation Group 2** – intermediate controls for organizations ready to go beyond IG1.  
-- **Sector‑specific guidance** (for example, PCI DSS for payment processing, HIPAA for healthcare).
-
-Open an issue if you would like to see additional frameworks or refinements to the existing content.
