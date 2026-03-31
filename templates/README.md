@@ -136,3 +136,4 @@ The most important thing is not perfection, but that:
 - They are **kept up‑to‑date enough** to support decisions and improvements.
 
 ---
+The long‑term intention is for this repository to be a living reference for organizations that need to improve their security posture step by step, without assuming deep security expertise or large budgets.
